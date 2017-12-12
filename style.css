@@ -105,3 +105,18 @@ border-bottom: 1px solid #0D5D62;
 p {
 padding: 0px 50px;
 }
+
+ul {
+list-style-type: none;
+text-align: center;
+padding: 0px 20px;
+}
+
+li {
+display: inline-block;
+}
+
+a {
+padding: 20px;
+color: #006688;
+}
