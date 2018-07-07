@@ -1,65 +1,65 @@
 body {
-background-color: #DDDDDD;
-font-family: "Century Gothic", "Verdana", "sans-serif";
-color: #555555;
-margin: 0;
-padding: 0;
+	background-color: #DDDDDD;
+	font-family: "Century Gothic", "Verdana", "sans-serif";
+	color: #555555;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-display: inline;
-font-size: 64px;
-padding: 5px;
+	display: inline;
+	font-size: 64px;
+	padding: 5px;
 }
 
 h2 {
-background-color: #1BBBC4;
-color: #FFFFFF;
-font-size: 30px;
-text-align: center;
-padding: 15px;
-border-top: 1px solid #DDDDDD;
-border-bottom: 1px solid #0D5D62;
+	background-color: #1BBBC4;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	padding: 15px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #0D5D62;
 }
 
 h3 {
-font-size: 24px;
+	font-size: 24px;
 }
 
 h6 {
-font-size: 24px;
-margin: 0;
-padding: 0px 50px;
+	font-size: 24px;
+	margin: 0;
+	padding: 0px 50px;
 }
 
 p {
-padding: 0px 50px;
+	padding: 0px 50px;
 }
 
 ul {
-list-style-type: none;
-text-align: center;
-padding: 0px 20px;
+	list-style-type: none;
+	text-align: center;
+	padding: 0px 20px;
 }
 
 li {
-display: inline-block;
+	display: inline-block;
 }
 
 a {
-padding: 20px;
-color: #006688;
+	padding: 20px;
+	color: #006688;
 }
 
 .in-text {
-padding: 0px;
+	padding: 0px;
 }
 
 nav {
-background-color: #FFFFFF;
-margin: 0px 0px 10px;
-padding: 2px;
-border-bottom: 1px solid #BBBBBB;
+	background-color: #FFFFFF;
+	margin: 0px 0px 10px;
+	padding: 2px;
+	border-bottom: 1px solid #BBBBBB;
 }
 
 nav ul {
