@@ -6,90 +6,10 @@ margin: 0;
 padding: 0;
 }
 
-nav {
-background-color: #FFFFFF;
-margin: 0px 0px 10px;
-padding: 2px;
-border-bottom: 1px solid #BBBBBB;
-}
-
-nav ul {
-list-style-type: none;
-overflow: hidden;
-margin: 0;
-padding: 0px 20px;
-}
-
-nav li {
-float: right;
-text-align: center;
-}
-
-nav li:first-child {
-float: left;
-}
-
-nav a {
-display: block;
-padding: 20px;
-font-size: 18px;
-color: #006688;
-font-variant: small-caps;
-font-weight: bold;
-text-decoration: none;
-}
-
-nav li:hover {
-background-color: #EFEFEF;
-}
-
-nav li:first-child:hover {
-background: #FFFFFF;
-}
-
-header {
-text-align: center;
-background-color: #1BBBC4;
-color: #FFFFFF;
-margin: 0;
-padding: 60px 0px 30px;
-}
-
 h1 {
 display: inline;
 font-size: 64px;
 padding: 5px;
-}
-
-h3 {
-font-size: 24px;
-}
-
-section {
-background-color: #FFFFFF;
-border-bottom: 1px solid #BBBBBB;
-}
-
-#updates {
-text-align: center;
-padding: 30px;
-}
-
-#about {
-text-align: center;
-margin: 10px 0px;
-padding: 30px;
-}
-
-h6 {
-font-size: 24px;
-margin: 0;
-padding: 0px 50px;
-}
-
-#main_content {
-min-height: 500px;
-padding: 0px 0px 30px;
 }
 
 h2 {
@@ -100,6 +20,16 @@ text-align: center;
 padding: 15px;
 border-top: 1px solid #DDDDDD;
 border-bottom: 1px solid #0D5D62;
+}
+
+h3 {
+font-size: 24px;
+}
+
+h6 {
+font-size: 24px;
+margin: 0;
+padding: 0px 50px;
 }
 
 p {
@@ -123,4 +53,74 @@ color: #006688;
 
 .in-text {
 padding: 0px;
+}
+
+nav {
+background-color: #FFFFFF;
+margin: 0px 0px 10px;
+padding: 2px;
+border-bottom: 1px solid #BBBBBB;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0px 20px;
+}
+
+nav li {
+	float: right;
+	text-align: center;
+}
+
+nav li:first-child {
+	float: left;
+}
+
+nav li:hover {
+	background-color: #EFEFEF;
+}
+
+nav li:first-child:hover {
+	background: #FFFFFF;
+}
+
+nav a {
+	display: block;
+	padding: 20px;
+	font-size: 18px;
+	color: #006688;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	background-color: #1BBBC4;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 60px 0px 30px;
+}
+
+section {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+#updates {
+	text-align: center;
+	padding: 30px;
+}
+
+#about {
+	text-align: center;
+	margin: 10px 0px;
+	padding: 30px;
+}
+
+#main_content {
+	min-height: 500px;
+	padding: 0px 0px 30px;
 }
