@@ -54,20 +54,20 @@ a {
 nav {
 	background-color: #FFFFFF;
 	margin: 0px 0px 10px;
-	padding: 2px;
 	border-bottom: 1px solid #BBBBBB;
 }
 
 nav ul {
-	list-style-type: none;
 	overflow: hidden;
 	margin: 0;
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 nav li {
+	display: inline-block;
 	float: right;
 	text-align: center;
+	padding: 20px;
 }
 
 nav li:first-child {
@@ -79,14 +79,11 @@ nav li:hover {
 }
 
 nav li:first-child:hover {
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 nav a {
-	display: block;
-	padding: 20px;
 	font-size: 18px;
-	color: #006688;
 	font-variant: small-caps;
 	font-weight: bold;
 	text-decoration: none;
