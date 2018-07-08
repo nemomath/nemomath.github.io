@@ -64,10 +64,10 @@ nav ul {
 }
 
 nav li {
-	display: inline-block;
+	display: inline;
 	float: right;
 	text-align: center;
-	padding: 20px;
+	padding: 0;
 }
 
 nav li:first-child {
@@ -83,6 +83,8 @@ nav li:first-child:hover {
 }
 
 nav a {
+	display: block;
+	padding: 20px;
 	font-size: 18px;
 	font-variant: small-caps;
 	font-weight: bold;
