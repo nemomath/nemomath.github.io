@@ -60,26 +60,21 @@ nav {
 nav ul {
 	overflow: hidden;
 	margin: 0;
-	padding: 0px 10px;
+	padding: 0;
 }
 
 nav li {
-	display: inline;
-	float: right;
+	float: left;
 	text-align: center;
 	padding: 0;
 }
 
-nav li:first-child {
-	float: left;
+nav .menu {
+	float: right;
 }
 
-nav li:hover {
+nav .menu li:hover {
 	background-color: #EFEFEF;
-}
-
-nav li:first-child:hover {
-	background-color: #FFFFFF;
 }
 
 nav a {
@@ -89,6 +84,53 @@ nav a {
 	font-variant: small-caps;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+nav li.dropdown {
+	display: none;
+	padding: 27px;
+}
+
+nav li.dropdown a {
+	padding: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}
+
+nav li.down-arrow a {
+	border-top: 8px solid #006688;
+}
+
+nav li.up-arrow a {
+	border-bottom: 8px solid #006688;
+}
+
+@media screen and (max-width: 720px) {
+
+	nav li {
+		display: block;
+		float: none;
+		text-align: left;
+	}
+
+	nav .menu {
+		float: none;
+	}
+
+	nav .menu a {
+		padding: 10px 30px;
+		font-size: 16px;
+	}
+	
+	nav li.dropdown {
+		display: inline;
+		float: right;
+	}
+
+	nav .default {
+		display: none;
+	}
+
 }
 
 header {

@@ -12,11 +12,31 @@
 <body>
 <nav>
 	<ul>
-		<li><a href="index.html">Never Ending Math Open</a></li>
-		<li><a href="results.html">Results</a></li>
-		<li><a href="tests.html">Tests</a></li>
-		<li><a href="general.html">General</a></li>
+		<li class="dropdown down-arrow" onclick="toggleMenu()"><a></a></li>
+		<li class="name"><a href="index.html">Never Ending Math Open</a></li>
+		<span class="menu default">
+			<li><a href="general.html">General</a></li>
+			<li><a href="tests.html">Tests</a></li>
+			<li><a href="results.html">Results</a></li>
+		</span>
 	</ul>
+	<script>
+	function toggleMenu() {
+		var menu = document.getElementsByClassName("menu")[0];
+		if (menu.className == "menu") {
+			menu.className += " default";
+		} else {
+			menu.className = "menu";	
+		}
+
+		var arrow = document.getElementsByClassName("dropdown")[0];
+		if (arrow.className == "dropdown down-arrow") {
+			arrow.className = "dropdown up-arrow";
+		} else {
+			arrow.className = "dropdown down-arrow";
+		}
+	}
+	</script>
 </nav>
 <section id="main_content">
 	<h2>General</h2>
