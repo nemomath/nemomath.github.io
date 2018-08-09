@@ -1,49 +1,54 @@
 body {
 	background-color: #DDDDDD;
 	font-family: "Century Gothic", "Verdana", "sans-serif";
-	color: #555555;
+	color: #444444;
 	margin: 0;
 	padding: 0;
 }
 
 h1 {
-	display: inline;
-	font-size: 64px;
-	padding: 5px;
+	font-size: 84px;
+	letter-spacing: 8px;
+	margin: 40px 0px 20px;
+	padding: 0;
 }
 
 h2 {
-	background-color: #1BBBC4;
-	color: #FFFFFF;
 	font-size: 30px;
-	text-align: center;
-	padding: 15px;
-	border-top: 1px solid #DDDDDD;
-	border-bottom: 1px solid #0D5D62;
+	margin: 15px 0px;
+	padding: 0;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	margin: 25px 0px;
+	padding: 0;
 }
 
 h6 {
 	font-size: 24px;
-	margin: 0;
-	padding: 0px 50px;
+	margin: 8px 0px;
+	padding: 0;
 }
 
 p {
-	padding: 0px 50px;
+	font-size: 15px;
+	margin: 8px 0px;
+	padding: 0;
 }
 
 ul {
 	list-style-type: none;
 	text-align: center;
+	margin: 10px 0px;
 	padding: 0;
 }
 
 li {
 	display: inline;
+	margin: 0;
 	padding: 0px 10px;
 }
 
@@ -53,14 +58,13 @@ a {
 
 nav {
 	background-color: #FFFFFF;
-	margin: 0px 0px 10px;
-	border-bottom: 1px solid #BBBBBB;
+	margin: 0;
+	padding: 0;
 }
 
 nav ul {
-	overflow: hidden;
 	margin: 0;
-	padding: 0;
+	overflow: hidden;
 }
 
 nav li {
@@ -81,7 +85,6 @@ nav a {
 	display: block;
 	padding: 20px;
 	font-size: 18px;
-	font-variant: small-caps;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -133,31 +136,32 @@ nav li.up-arrow a {
 
 }
 
-header {
+#title {
 	text-align: center;
-	background-color: #1BBBC4;
+	background-color: #129FA8;
+	background: radial-gradient(#1BBBC4, #0D9199);
 	color: #FFFFFF;
 	margin: 0;
-	padding: 60px 0px 30px;
+	padding: 20px;
 }
 
 section {
 	background-color: #FFFFFF;
-	border-bottom: 1px solid #BBBBBB;
+	margin: 0;
+	padding: 20px 7% 30px;
 }
 
 #updates {
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
+	background-color: #028087;
+	color: #FFFFFF;
 }
 
 #about {
 	text-align: center;
-	margin: 10px 0px;
-	padding: 30px;
 }
 
 #main_content {
 	min-height: 500px;
-	padding: 0px 0px 30px;
 }
